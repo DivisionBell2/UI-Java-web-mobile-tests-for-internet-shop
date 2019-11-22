@@ -1,0 +1,24 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Basic">
+    <listeners>
+        <listener class-name="helpers.Listener"/>
+    </listeners>
+    <test name="Search" parallel="methods" thread-count="5">
+    </test>
+    <test name="Regression" parallel="methods" thread-count="5">
+        <packages>
+            <package name="Auth"/>
+            <package name="Certificates"/>
+            <package name="Favorite"/>
+            <package name="Order"/>
+            <package name="Registration"/>
+            <package name="Brands"/>
+            <package name="Instashop"/>
+            <package name="About"/>
+            <package name="Search"/>
+            <package name="Sizes"/>
+            <package name="UserCabinet"/>
+            <package name="Sale"/>
+        </packages>
+    </test>
+</suite>
