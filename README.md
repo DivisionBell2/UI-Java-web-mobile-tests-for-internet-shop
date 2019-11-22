@@ -22,5 +22,5 @@ Framework uses:
 This framework is only for skills demonstrations, but for work needs:
 1. Fill env.properties
 2. Put chromedriver to resources
-3. For launch all tests start testng.xml from ide or point to it in CI
-4. For launch one test start one test from ide
+3. For launch all tests start testng.xml from ide or point on it in CI
+4. For launch one test start one test from IDE
